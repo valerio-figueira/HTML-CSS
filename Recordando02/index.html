@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seletores Personalizados</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        div > p {            
+            display: none;
+        }
+        .menu:hover{
+            background-color: chocolate;
+            color: black;
+            border: 2px solid rgb(77, 77, 77);
+        }
+        .menu{
+            font-size: larger;
+            display: block;
+            display: inline-table;
+            background-color: #024059;
+            color: azure;
+            width: 20%;
+            border: 2px solid azure;
+            border-radius: 3px;
+        }
+        .menu:hover > p{
+            display: block;
+            background-color: rgb(219, 219, 219);
+            color: rgb(23, 23, 23);
+            border-radius: 3px;
+            height: 20px;
+        }
+        .box{
+            background-color: burlywood;
+            width: 100px;
+            height: 100px;
+            text-align: center;
+            border: 2px solid black;
+        }
+        .box:hover{
+            background-color: chocolate;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <h1 id="principal">Criando Sites com HTML e CSS</h1>
+        <div class="menu">
+            Home
+        </div>
+        <div class="menu">
+            Elemento 1
+            <p>Item</p>
+        </div>
+        <div class="menu">
+            Elemento 2
+            <p>Item</p>
+            <p>Item</p>
+        </div>         
+        
+        <div class="box">
+            Box
+        </div>
+        
+        <h1>Construção com HTML</h1>
+        <h2 class="basico">HTML Básico</h2>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. <span class="basico destaque">Repellat, sed, quaerat adipisci dignissimos</span> omnis a velit necessitatibus quasi, eligendi in quos eaque consequuntur sunt provident hic deserunt error quia eum!</p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore ducimus quis voluptatum, cupiditate a sit vitae, voluptatem ad commodi culpa porro incidunt deserunt nostrum in quo harum debitis hic animi.</p>
+        <h2 class="intermediario">HTML Intermediário</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. <span class="intermediario destaque">Dignissimos nulla assumenda doloremque quas.</span> Alias, voluptate illum hic voluptatem fugit labore soluta sed eaque recusandae, veritatis quis debitis accusantium adipisci pariatur.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa aperiam, non dolore error quisquam, incidunt maxime omnis debitis, necessitatibus fugiat quo beatae vitae natus velit officiis nulla reprehenderit perspiciatis quasi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis voluptates aut consequuntur rem itaque, distinctio ut nulla optio architecto ipsa laborum quisquam officia voluptatum natus iste molestias, porro ea. Fugiat?</p>
+        <h2 class="avançado">HTML Avançado</h2>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor, pariatur sint? <span class="avançado">Repellendus consectetur</span>, ipsa sed eum saepe facilis rem quo eos harum labore, quod quia blanditiis optio quam dolorem illo!</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex, quasi laudantium? Cumque, voluptatum rerum deleniti obcaecati exercitationem eum, tempore adipisci iure facilis, corporis qui non itaque accusamus quia. Quaerat, expedita.</p>
+        <h1>Construção com CSS</h1>
+        <h2 class="basico">CSS Básico</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus maiores temporibus eaque consequatur aut, non libero voluptatem in a delectus totam eos impedit molestias autem tempora quibusdam nemo reprehenderit aliquam?</p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias obcaecati nisi blanditiis ipsa tempore quidem! Ad exercitationem aliquam, ut, omnis, dicta at dolorum voluptatum atque quisquam incidunt blanditiis deserunt corporis!</p>
+        <h2 class="intermediario">CSS Intermediário</h2>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non quia, quae error facere voluptatum aut doloribus possimus dolorem dignissimos nulla, provident cum voluptates ullam eaque inventore, soluta molestias eos vel.</p>
+        <h2 class="avançado">CSS Avançado</h2>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio, recusandae optio. Nihil odio doloribus magnam debitis fugiat incidunt dolor corporis architecto exercitationem eum. Neque minima sapiente a eligendi consequuntur! Neque.</p>
+    </main>
+</body>
+</html>

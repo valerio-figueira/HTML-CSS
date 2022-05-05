@@ -1,0 +1,25 @@
+@charset "utf-8";
+
+main{
+    background-color: azure;
+    width: 80%;
+    height: 600px;
+    margin: auto;
+    padding: 25px;
+}
+body{
+    background-color: #3636a2;
+}
+h1{
+    color: azure;
+    background-color: #3636a2;
+    padding: 4%;
+}
+h2{
+    color: azure;
+    background-color: #3636a2;
+}
+p{
+    text-indent: 30px;
+    text-align: justify;
+}
