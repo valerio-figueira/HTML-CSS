@@ -1,5 +1,9 @@
 *.js linguist-detectable=false
 *.java linguist-detectable=false
 *.html linguist-detectable=true
+<<<<<<< HEAD
 *.css linguist-detectable=true
+=======
+*.css linguis-detectable-true
+>>>>>>> 15f802e78199ec7ec420e0c686827e5510af94d4
 *.xml linguist-detectable=false
