@@ -12,9 +12,9 @@
             border: 2px solid black;
         }
         nav{
-            border: 2px solid black;
             padding: 10px;
             background-color: midnightblue;
+            box-shadow: 1px 2px 5px 1px rgba(0, 0, 0, 0.333);
         }
         .menu{ /*inline-level*/
             display:inline;
@@ -39,20 +39,27 @@
             box-shadow: 6px 6px #83d80c;
             border: 2px solid black;
         }
+        section{
+            box-shadow: 1px 2px 5px 1px rgba(0, 0, 0, 0.227);
+        }
         article{
-            background-color: #c6e5e7;
-            margin: 5px;
+            background-color:#c6e5e7;             
+        }
+        article > h2:hover{
+            background-color: midnightblue;
+            color: #c0ef31;
         }
         aside{
             background-color: rgb(132, 183, 185);
+            margin: 0px;
         }
         h1#título{ /*box-level*/
             background-color: midnightblue;
-            color: #c0ef31;
+            color: #c0ef31;           
 
             padding: 15px;
 
-            margin: 1px auto 10px auto;
+            margin: 0px auto 10px auto;
             
             outline-width: 3px;
             outline-style: dashed;
