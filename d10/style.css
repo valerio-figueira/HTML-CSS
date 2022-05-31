@@ -1,0 +1,37 @@
+@charset "utf-8";
+
+body{
+    text-align: justify;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+:root{
+    --cor0: #D6D58E;
+    --cor1: #DBF227;
+    --cor2: #9FC131;
+    --cor3: #005C53;
+    --cor4: #042940;
+}
+
+header{
+    background-color: var(--cor0);
+    width: 70%;
+    margin: auto;
+}
+
+nav{
+    background-color: var(--cor0);
+    width: 70%;
+    margin: auto;
+}
+
+main{
+    background-color: var(--cor0);
+    width: 70%;
+    margin: auto;
+}
+
+footer{
+    background-color: var(--cor0);
+    width: 70%;
+    margin: auto;
+}
