@@ -1,0 +1,115 @@
+@charset "UTF-8";
+        body{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            background-color: midnightblue;
+        }
+        header{
+            background-color: beige;
+            width: 60%;
+            margin: 1px auto 10px auto;
+            padding: 20px;
+            border: 2px solid black;
+        }
+        nav{
+            padding: 10px;
+            background-color: midnightblue;
+            box-shadow: 1px 2px 5px 1px rgba(0, 0, 0, 0.333);
+        }
+        .menu{ /*inline-level*/
+            display:inline;
+            text-decoration: none;
+            padding: 10px;
+            margin-left: 1px;
+        }
+        .menu:hover{ /*inline-level*/
+            display:inline;
+            color: midnightblue;
+            text-decoration: none;
+            padding: 10px;
+            margin-left: 1px;
+        }
+        main{
+            background-color: beige;
+            width: 60%;
+            margin: auto;
+            padding: 20px;
+            border: 2px solid black;
+        }
+        section{
+            box-shadow: 1px 2px 5px 1px rgba(0, 0, 0, 0.227);
+        }
+        article{
+            background-color:#c6e5e7;             
+        }
+        article > h2:hover{
+            background-color: midnightblue;
+            color: #c0ef31;
+        }
+        aside{
+            background-color: rgb(132, 183, 185);
+            margin: 0px;
+        }
+        h1#título{ /*box-level*/
+            background-color: midnightblue;
+            color: #c0ef31;           
+
+            padding: 15px;
+
+            margin: 0px auto 10px auto;
+            
+            outline-width: 3px;
+            outline-style: dashed;
+            outline-color: midnightblue;
+
+            border: 2px solid beige;       
+        }
+        h1{
+            background-color: midnightblue;
+            color: #c0ef31;
+            text-align: left;
+            padding: 6px 16px;
+        }
+        h2{
+            background-color: midnightblue;
+            color: #c0ef31;
+            text-align: left;
+            padding: 2px;
+        }
+        p{
+            text-indent: 15px;
+            text-align: justify;
+            padding: 5px;
+        }
+        
+        table{
+            border-collapse: collapse;
+        }
+        th{
+            border-width: 2px; 
+            border-style: dotted;             
+            padding: 8px;
+            background-color: midnightblue;
+            color: #c0ef31;
+            text-align: center;
+        }
+        td{         
+            border-width: 2px;
+            border-style: dotted;
+            padding: 8px;
+            background-color: honeydew;
+            text-align: center;
+        }
+        p#footer{
+            text-align: left;
+        }
+        footer{
+            background-color: beige;
+            width: 60%;
+            margin: 0px auto 0px auto;
+            padding: 20px;
+            box-shadow: 6px 6px #83d80c;
+            border-width: 2px;
+            border-style: solid;
+            border-color: black;
+            margin: 10px auto 30px auto;
+        }

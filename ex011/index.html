@@ -6,28 +6,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="" type="image/x-icon">
     <title>Mídias em HTML5</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Imagem Dinâmica</h1>
-    <p>Abra este site em vários dispositivos diferentes ou simplesmente aumenta e diminua o tamanho de seu navegador.</p>
-
-    <picture>
-        <source media="(max-width: 750px)" srcset="imgs/foto-p.png" type="image/png">
-        <!-- foto p pra encerrar -->
-        <source media="(max-width: 1050px)" srcset="imgs/foto-m.png" type="image/png">
-        <!-- foto m em seguida -->
-        <img src="imgs/foto-g.png" alt="Imagem flexível"> <!-- foto g primeiro -->
-    </picture>
-
-    <h1>Reproduzir Áudio</h1>
-    <p>Aprendendo a reproduzir áudio em HTML</p>
-    <p>&lt;audio src="midia/Capital Cities - Safe And Sound (Tik Tok Remix).mp3" controls autoplay>&lt;/audio&gt;</p> <!-- MP3 OGG WAV -->
-    <br>
-    <audio preload="metadata" controls>
-        <source src="midia/Capital Cities - Safe And Sound (Tik Tok Remix).mp3" type="audio/mpeg">
-        <source src="midia/Capital Cities - Safe And Sound (Tik Tok Remix).mp3" type="audio/ogg">
-        <source src="midia/Capital Cities - Safe And Sound (Tik Tok Remix).mp3" type="audio/wav">
-        <p>Infelizmente seu navegador não pode reproduzir áudio. <a href="midia/Capital Cities - Safe And Sound (Tik Tok Remix).mp3">Clique aqui para baixar</a></p>
-    </audio>
+    <main>
+        <h1>Imagem Dinâmica</h1>
+        <p>Abra este site em vários dispositivos diferentes ou simplesmente aumenta e diminua o tamanho de seu navegador.</p>
+        <picture>
+            <source media="(max-width: 750px)" srcset="imgs/foto-p.png" type="image/png">
+            <!-- foto p pra encerrar -->
+            <source media="(max-width: 1050px)" srcset="imgs/foto-m.png" type="image/png">
+            <!-- foto m em seguida -->
+            <img src="imgs/foto-g.png" alt="Imagem flexível"> <!-- foto g primeiro -->
+        </picture>
+        <h1>Reproduzir Áudio</h1>
+        <p>Aprendendo a reproduzir áudio em HTML</p>
+        <p>&lt;audio src="midia/Capital Cities - Safe And Sound (Tik Tok Remix).mp3" controls autoplay>&lt;/audio&gt;</p> <!-- MP3 OGG WAV -->
+        <br>
+        <audio preload="metadata" controls>
+            <source src="midia/Capital Cities - Safe And Sound (Tik Tok Remix).mp3" type="audio/mpeg">
+            <source src="midia/Capital Cities - Safe And Sound (Tik Tok Remix).mp3" type="audio/ogg">
+            <source src="midia/Capital Cities - Safe And Sound (Tik Tok Remix).mp3" type="audio/wav">
+            <p>Infelizmente seu navegador não pode reproduzir áudio. <a href="midia/Capital Cities - Safe And Sound (Tik Tok Remix).mp3">Clique aqui para baixar</a></p>
+        </audio>
+    </main>
 </body>
 </html>
